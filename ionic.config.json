@@ -1,0 +1,7 @@
+{
+  "name": "template-polish-state",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
