@@ -1,0 +1,50 @@
+<ion-header class="ion-no-border" mode="ios">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Election</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" mode="ios">
+  <div class="container">
+    <h4 class="p-4">SSG Position</h4>
+
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label> Position here </ion-label>
+      </ion-list-header>
+
+      <ion-item detail="false" mode="md">
+        <ion-avatar slot="start">
+          <img
+          alt="an image"
+            src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpgg"
+          />
+        </ion-avatar>
+        <ion-label>
+          NAME OF THE STUDENT
+          <p>Program</p>
+          <p>Patrylist</p>
+        </ion-label>
+        <ion-radio name="name" slot="end" value="student name"> </ion-radio>
+      </ion-item>
+      <ion-item detail="false" mode="md">
+        <ion-avatar slot="start">
+          <img
+          alt="an image"
+            src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpgg"
+          />
+        </ion-avatar>
+        <ion-label>
+          NAME OF THE STUDENT
+          <p>Program</p>
+          <p>Patrylist</p>
+        </ion-label>
+        <ion-radio name="name" slot="end" value="value"> </ion-radio>
+      </ion-item>
+    </ion-radio-group>
+    <ion-button > Submit</ion-button>
+  </div>
+</ion-content>

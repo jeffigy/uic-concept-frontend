@@ -1,0 +1,25 @@
+ion-list{
+    background: none;
+    ion-item-divider {
+        border-radius: 5px;
+        --color: var(--ion-color-secondary);
+        --background: none;
+      }
+      ion-item {
+        // border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        text-transform: uppercase;
+
+        --border-style: none;
+        ion-radio {
+          --color-checked: red;
+          // --color: red;
+          // --inner-border-radius: 10px;
+        }
+      }
+}
+
+.container {
+  margin: 10px;
+}

@@ -1,0 +1,103 @@
+<ion-header class="ion-no-border header" mode="ios">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title> Financial </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="content-header">
+    <p class="amount">P 3,883.35</p>
+    <p class="label">Total Balance</p>
+  </div>
+  <div class="sample">
+    <div class="container">
+      <ion-list>
+        <ion-item lines="none">
+          <ion-label>Select School Year:</ion-label>
+          <ion-select class="custom-options">
+            <ion-select-option value="2018-2019">2018-2019</ion-select-option>
+            <ion-select-option value="2019-2020">2019-2020</ion-select-option>
+            <ion-select-option value="2020-2021">2020-2021</ion-select-option>
+            <ion-select-option value="2021-2022">2021-2022</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-label>Select Semester:</ion-label>
+          <ion-select class="custom-options">
+            <ion-select-option value="First Semester"
+              >First Semester</ion-select-option
+            >
+            <ion-select-option value="Second Semester"
+              >Second Semester</ion-select-option
+            >
+            <ion-select-option value="Summer">Summer</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <div class="buttons">
+        <ion-row>
+          <ion-col>
+            <ion-item button detail="false">
+              <ion-icon name="add-outline"> </ion-icon>
+              <ion-label> Make Payment </ion-label>
+            </ion-item>
+          </ion-col>
+          <ion-col>
+            <ion-item button detail="false">
+              <ion-icon name="eye-outline"> </ion-icon>
+              <ion-label> View Details </ion-label>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </div>
+      <div class="dues">
+        <h4 class="p-4">Monthly Dues</h4>
+        <ion-button size="small">view all</ion-button>
+      </div>
+
+      <ion-item lines="none">
+        <ion-label class="time">
+          Dues Amount: P 2,811.05
+          <p>Balance: P 872.07</p>
+          <p>Permit:</p>
+        </ion-label>
+        <ion-label slot="end">
+          <p class="ion-text-right">Month 3</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </ion-label>
+      </ion-item>
+
+      <h4 class="p-4">Payment History</h4>
+
+      <ion-item lines="none">
+        <ion-label class="time">
+          P 2,500.00
+          <p>OR No: 2100956-CB</p>
+          <p>Cashier: Corazon</p>
+        </ion-label>
+
+        <ion-label slot="end">
+          <p class="ion-text-right">2022-01-15</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label class="time">
+          P 5,000.00
+          <p>OR No: 2104396-CB</p>
+          <p>Cashier: Corazon</p>
+        </ion-label>
+
+        <ion-label slot="end">
+          <p class="ion-text-right">2022-01-24</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </ion-label>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

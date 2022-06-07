@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,57 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+  ion-toolbar {
+    --background: #f5f6fa;
+    ion-toolbar{
+      ion-title{
+        font-weight: 400;
+      }
+    }
+  }
+  .content-padding {
+    --padding-top: 20px;
+  }
+  .header {
+    ion-back-button {
+      --color: #fff;
+    }
+    ion-toolbar {
+      --min-height: 44px;
+      --background: linear-gradient(to left, #d2334c, #e65b7a);
+      ion-title {
+        --color: #fff;
+        font-weight: 400;
+      }
+      img {
+        height: 40px;
+      }
+      ion-segment {
+        --min-height: 44px;
+        ion-segment-button {
+          height: 40px;
+          --color-checked: var(--ion-color-secondary);
+        }
+      }
+      ion-buttons {
+        ion-button {
+          ion-icon {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .header-content {
+    ion-toolbar {
+      --background: linear-gradient(to left, #d2334c, #e65b7a);
+    }
+  }
+
+  ion-content {
+    --background: #f5f6fa;
+  }
+
+}
